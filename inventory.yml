@@ -1,0 +1,17 @@
+---
+all:
+  children:
+    routers:
+      hosts:
+        r1:
+          ansible_host: 192.168.202.101
+        r2:
+          ansible_host: 192.168.202.102
+        r3:
+          ansible_host: 192.168.202.103
+        r4:
+          ansible_host: 192.168.202.104
+        r5:
+          ansible_host: 192.168.202.105
+        r6:
+          ansible_host: 192.168.202.106

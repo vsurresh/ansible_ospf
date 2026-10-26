@@ -1,0 +1,28 @@
+---
+router_id: 3.3.3.3
+interfaces:
+  - name: Ethernet0/1
+    description: r4
+    ip: 10.100.34.1/24
+    area: 0
+    passive: false
+  - name: Ethernet0/2
+    description: r2
+    ip: 10.100.23.2/24
+    area: 0
+    passive: false
+  - name: Ethernet0/3
+    description: r1
+    ip: 10.100.13.2/24
+    area: 0
+    passive: false
+  - name: Ethernet1/1
+    description: r5
+    ip: 10.100.35.1/24
+    area: 1
+    passive: false
+  - name: Loopback0
+    description: Router ID
+    ip: 3.3.3.3/32
+    area: 0
+    passive: true

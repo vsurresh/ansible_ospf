@@ -1,0 +1,18 @@
+---
+router_id: 6.6.6.6
+interfaces:
+  - name: Ethernet1/0
+    description: r2
+    ip: 10.100.26.2/24
+    area: 2
+    passive: false
+  - name: Ethernet1/1
+    description: r4
+    ip: 10.100.46.2/24
+    area: 2
+    passive: false
+  - name: Loopback0
+    description: Router ID
+    ip: 6.6.6.6/32
+    area: 2
+    passive: true

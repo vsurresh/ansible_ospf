@@ -1,0 +1,28 @@
+---
+router_id: 1.1.1.1
+interfaces:
+  - name: Ethernet0/1
+    description: r2
+    ip: 10.100.12.1/24
+    area: 0
+    passive: false
+  - name: Ethernet0/2
+    description: r4
+    ip: 10.100.14.1/24
+    area: 0
+    passive: false
+  - name: Ethernet0/3
+    description: r3
+    ip: 10.100.13.1/24
+    area: 0
+    passive: false
+  - name: Ethernet1/0
+    description: r5
+    ip: 10.100.15.1/24
+    area: 1
+    passive: false
+  - name: Loopback0
+    description: Router ID
+    ip: 1.1.1.1/32
+    area: 0
+    passive: true
